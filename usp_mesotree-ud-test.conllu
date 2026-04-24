@@ -1847,7 +1847,7 @@
 # finished = Yes
 1	Xalábʼik	xalábʼik	VERB	_	_	0	root	_	_
 2	insiʼ	insiʼ	NOUN	_	_	1	nsubj	_	_
-3	chwij	chwij	NOUN	_	_	2	obl	_	SpaceAfter=No
+3	chwij	chwij	NOUN	_	_	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -1895,7 +1895,7 @@
 # finished = Yes
 1	Yajiʼ	yajiʼ	NOUN	_	_	0	root	_	_
 2	walibʼchi	walibʼchi	NOUN	_	_	1	nsubj	_	_
-3	richooch	richooch	NOUN	_	_	2	obl	_	SpaceAfter=No
+3	richooch	richooch	NOUN	_	_	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -2271,8 +2271,8 @@
 4	goom	goom	NOUN	_	_	2	obj	_	_
 5	li	li	DET	_	_	6	det	_	_
 6	Aruur	aruur	NOUN	_	_	2	nsubj	_	_
-7	li	li	SCONJ	_	_	8	mark	_	_
-8	pech	pech	NOUN	_	_	6	obl	_	_
+7	li	li	DET	_	_	6	det	_	_
+8	pech	pech	NOUN	_	_	6	nmod	_	_
 9	rkaʼ	rkaʼ	PART	_	_	10	amod	_	_
 10	Sanantony	sanantony	NOUN	_	_	8	nmod	_	_
 11	li	li	DET	_	_	10	det	_	SpaceAfter=No
@@ -3055,13 +3055,13 @@
 5	xjol	xjol	VERB	_	_	1	obl	_	_
 6	ruuq	ruuq	NOUN	_	_	5	obj	_	_
 7	bʼa	bʼa	ADP	_	_	8	case	_	_
-8	jchʼeek	jchʼeek	NOUN	_	_	6	obl	_	_
+8	jchʼeek	jchʼeek	NOUN	_	_	6	nmod	_	_
 9	xchap	xchap	VERB	_	_	5	conj	_	_
 10	man	man	DET	_	_	11	det	_	_
 11	chʼiichʼ	chʼiichʼ	NOUN	_	_	9	obj	_	_
-12	re	re	NOUN	_	_	14	case	_	_
+12	re	re	NOUN	_	_	11	nmod	_	_
 13	man	man	DET	_	_	14	det	_	_
-14	kompwert	kompwert	NOUN	_	_	11	obl	_	SpaceAfter=No
+14	kompwert	kompwert	NOUN	_	_	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -3577,7 +3577,7 @@
 2	tikʼat	tikʼat	VERB	_	_	0	root	_	_
 3	jqʼaaqʼ	jqʼaaqʼ	NOUN	_	_	2	nsubj	_	_
 4	tzikʼ	tzikʼ	ADJ	_	_	5	amod	_	_
-5	ajbʼanol	ajbʼanol	NOUN	_	_	3	obl	_	_
+5	ajbʼanol	ajbʼanol	NOUN	_	_	3	nmod	_	_
 6	xoot	xoot	NOUN	_	_	5	compound	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -5445,7 +5445,7 @@
 2	qe	qe	ADV	_	_	1	advmod	_	_
 3	rij	rij	NOUN	_	_	1	obj	_	_
 4	chi	chi	ADP	_	_	5	case	_	_
-5	cheeʼ	cheeʼ	NOUN	_	_	3	obl	_	_
+5	cheeʼ	cheeʼ	NOUN	_	_	1	obl	_	_
 6	xen	xen	VERB	_	_	1	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -5831,7 +5831,7 @@
 # finished = Yes
 1	Xaloqʼaʼ	xaloqʼaʼ	VERB	_	_	0	root	_	_
 2	achachabʼ	achachabʼ	NOUN	_	_	1	obj	_	_
-3	re	re	NOUN	_	_	2	obl	_	_
+3	re	re	NOUN	_	_	1	obl	_	_
 4	achak	achak	NOUN	_	_	3	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
