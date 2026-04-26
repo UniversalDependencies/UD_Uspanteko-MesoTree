@@ -6390,10 +6390,10 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	PRON	_	_	4	obl	_	_
+1	Riʼ	riʼ	PRON	_	_	0	root	_	_
 2	man	man	DET	_	_	3	det	_	_
-3	chaqʼxeel	chaqʼxeel	NOUN	_	_	1	obl	_	_
-4	xkʼuliʼ	xkʼuliʼ	VERB	_	_	0	root	_	_
+3	chaqʼxeel	chaqʼxeel	NOUN	_	_	1	nsubj	_	_
+4	xkʼuliʼ	xkʼuliʼ	VERB	_	_	3	acl	_	_
 5	chuch	chuch	ADP	_	_	7	case	_	_
 6	man	man	DET	_	_	7	det	_	_
 7	nabʼaal	nabʼaal	NOUN	_	_	4	obl	_	SpaceAfter=No
@@ -7431,7 +7431,7 @@
 2	tqakoj	tqakoj	VERB	_	_	0	root	_	_
 3	nij	nij	ADJ	_	_	4	amod	_	_
 4	qleen	qleen	NOUN	_	_	2	obj	_	_
-5	chi	chi	ADP	_	_	6	obl	_	_
+5	chi	chi	ADP	_	_	6	case	_	_
 6	qiij	qiij	NOUN	_	_	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -8324,11 +8324,11 @@
 # audio = none
 # finished = Yes
 1	Kʼexiʼ	kʼexiʼ	ADJ	_	_	0	root	_	_
-2	jkojik	jkojik	VERB	_	_	1	obj	_	_
+2	jkojik	jkojik	VERB	_	_	1	csubj	_	_
 3	maq	maq	DET	_	_	4	det	_	_
-4	jcheeʼal	jcheeʼal	NOUN	_	_	1	nsubj	_	_
+4	jcheeʼal	jcheeʼal	NOUN	_	_	2	nsubj	_	_
 5	chiʼ	chiʼ	ADP	_	_	6	case	_	_
-6	xoot	xoot	NOUN	_	_	4	obl	_	SpaceAfter=No
+6	xoot	xoot	NOUN	_	_	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -8781,7 +8781,7 @@
 4	man	man	DET	_	_	8	det	_	_
 5	chotchik	chotchik	ADJ	_	_	8	amod	_	_
 6	chi	chi	ADP	_	_	7	case	_	_
-7	jyook	jyook	NOUN	_	_	8	obl	_	_
+7	jyook	jyook	NOUN	_	_	8	nmod	_	_
 8	ánim	ánim	NOUN	_	_	3	nmod	_	_
 9	li	li	DET	_	_	8	det	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -9906,7 +9906,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	la	la	DET	_	_	7	det	_	_
 7	taarde	taarde	NOUN	_	_	4	nmod	_	_
-8	jli	jli	ADP	_	_	9	obl	_	_
+8	jli	jli	ADP	_	_	9	case	_	_
 9	Chʼajuul	chʼajuul	PROPN	_	_	1	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -11048,7 +11048,7 @@
 1	Xinsok	xinsok	VERB	_	_	0	root	_	_
 2	ral	ral	DET	_	_	3	det	_	_
 3	inchʼibʼ	inchʼibʼ	NOUN	_	_	1	obj	_	_
-4	re	re	NOUN	_	_	3	obl	_	_
+4	re	re	NOUN	_	_	3	nmod	_	_
 5	inqʼu	inqʼu	NOUN	_	_	4	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -11181,8 +11181,8 @@
 1	Kitaʼ	kitaʼ	PART	_	_	2	advmod	_	_
 2	xinchʼobʼ	xinchʼobʼ	VERB	_	_	0	root	_	_
 3	jwich	jwich	NOUN	_	_	2	obj	_	_
-4	neen	neen	PRON	_	_	5	obl	_	_
-5	ánim	ánim	NOUN	_	_	3	nmod	_	_
+4	neen	neen	PRON	_	_	3	nmod	_	_
+5	ánim	ánim	NOUN	_	_	4	nmod	_	_
 6	laal	laal	PART	_	_	5	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -13354,7 +13354,7 @@
 5	taʼ	taʼ	PART	_	_	6	advmod	_	_
 6	dyakwerd	dyakwerd	VERB	_	_	3	acl	_	_
 7	taq	taq	PRON	_	_	6	expl	_	_
-8	rikʼi	rikʼi	NOUN	_	_	1	obj	_	_
+8	rikʼi	rikʼi	NOUN	_	_	6	obl	_	_
 9	maq	maq	DET	_	_	11	det	_	_
 10	niʼj	niʼj	DET	_	_	11	det	_	_
 11	ikim	ikim	NOUN	_	_	8	nmod	_	SpaceAfter=No
@@ -13402,7 +13402,7 @@
 1	Taʼ	taʼ	PART	_	_	2	advmod	_	_
 2	tikʼaj	tikʼaj	VERB	_	_	0	root	_	_
 3	neen	neen	PRON	_	_	2	obl	_	_
-4	moo	moo	NOUN	_	_	3	obl	_	_
+4	moo	moo	NOUN	_	_	3	nmod	_	_
 5	ruxbʼ	ruxbʼ	NOUN	_	_	2	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -13946,7 +13946,7 @@
 # finished = Yes
 1	Pok	pok	ADJ	_	_	0	root	_	_
 2	sumaal	sumaal	NOUN	_	_	1	nsubj	_	_
-3	rij	rij	NOUN	_	_	2	obl	_	_
+3	rij	rij	NOUN	_	_	1	obl	_	_
 4	man	man	DET	_	_	5	det	_	_
 5	anim	anim	NOUN	_	_	3	nmod	_	_
 6	li	li	DET	_	_	5	det	_	SpaceAfter=No
@@ -16607,7 +16607,7 @@
 5	kʼu	kʼu	PRON	_	_	4	compound	_	_
 6	mood	mood	ADV	_	_	7	advmod	_	_
 7	chaak	chaak	NOUN	_	_	4	nmod	_	_
-8	re	re	NOUN	_	_	7	obl	_	_
+8	re	re	NOUN	_	_	7	nmod	_	_
 9	tzuqbʼel	tzuqbʼel	NOUN	_	_	8	nmod	_	_
 10	qibʼ	qibʼ	NOUN	_	_	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -19945,7 +19945,7 @@
 3	jornil	jornil	ADJ	_	_	2	compound	_	_
 4	re	re	NOUN	_	_	2	obl	_	_
 5	akixlanwa	akixlanwa	NOUN	_	_	4	nmod	_	_
-6	aat	aat	PRON	_	_	4	obl	_	SpaceAfter=No
+6	aat	aat	PRON	_	_	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -22147,7 +22147,7 @@
 2	pee	_	X	_	_	1	goeswith	_	_
 3	Jumuq	jumuq	PROPN	_	_	1	obl	_	_
 4	li	li	ADP	_	_	5	case	_	_
-5	kʼay	kʼay	NOUN	_	_	3	obl	_	SpaceAfter=No
+5	kʼay	kʼay	NOUN	_	_	1	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -22540,7 +22540,7 @@
 6	tzʼiʼ	tzʼiʼ	NOUN	_	_	4	nsubj	_	_
 7	re	re	NOUN	_	_	4	obl	_	_
 8	qelen	qelen	NOUN	_	_	7	nmod	_	_
-9	awe	awe	NOUN	_	_	8	obl	_	SpaceAfter=No
+9	awe	awe	NOUN	_	_	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -23071,7 +23071,7 @@
 4	xajabʼ	xajabʼ	NOUN	_	_	1	nsubj	_	_
 5	rikʼil	rikʼil	NOUN	_	_	1	obl	_	_
 6	la	la	ADP	_	_	7	case	_	_
-7	jaa	jaa	NOUN	_	_	5	obl	_	SpaceAfter=No
+7	jaa	jaa	NOUN	_	_	5	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -23524,7 +23524,7 @@
 2	jali	jali	ADV	_	_	1	advmod	_	_
 3	li	li	ADP	_	_	4	case	_	_
 4	jaʼ	jaʼ	NOUN	_	_	1	obl	_	_
-5	re	re	NOUN	_	_	4	obl	_	_
+5	re	re	NOUN	_	_	4	nmod	_	_
 6	Cholaʼ	cholaʼ	PROPN	_	_	5	nmod	_	_
 7	xpe	xpe	VERB	_	_	1	advcl	_	_
 8	man	man	DET	_	_	9	det	_	_
@@ -23945,7 +23945,7 @@
 4	maj	maj	DET	_	_	5	det	_	_
 5	chʼaakʼ	chʼaakʼ	NOUN	_	_	3	nmod	_	_
 6	man	man	DET	_	_	7	det	_	_
-7	anim	anim	NOUN	_	_	5	obl	_	_
+7	anim	anim	NOUN	_	_	5	nmod	_	_
 8	li	li	DET	_	_	7	det	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -24194,7 +24194,7 @@
 # finished = Yes
 1	Bʼenol	bʼenol	ADJ	_	_	0	root	_	_
 2	rutzil	rutzil	NOUN	_	_	1	nsubj	_	_
-3	inwiʼl	inwiʼl	NOUN	_	_	2	obl	_	_
+3	inwiʼl	inwiʼl	NOUN	_	_	2	nmod	_	_
 4	re	re	NOUN	_	_	1	obl	_	_
 5	maq	maq	DET	_	_	6	det	_	_
 6	jyaachʼul	jyaachʼul	NOUN	_	_	4	nmod	_	_
@@ -25101,10 +25101,10 @@
 # finished = Yes
 1	Kap	kap	VERB	_	_	0	root	_	_
 2	ra	ra	DET	_	_	3	det	_	_
-3	´ékʼel	´ékʼel	NOUN	_	_	1	obj	_	_
-4	katzal	katzal	VERB	_	_	1	advcl	_	_
+3	ékʼel	ékʼel	NOUN	_	_	1	obj	_	_
+4	katzal	katzal	VERB	_	_	3	acl	_	_
 5	raqan	raqan	NOUN	_	_	4	nsubj	_	_
-6	jwiʼl	jwiʼl	NOUN	_	_	5	obl	_	_
+6	jwiʼl	jwiʼl	NOUN	_	_	4	obl	_	_
 7	man	man	DET	_	_	8	det	_	_
 8	tzʼiʼ	tzʼiʼ	NOUN	_	_	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -25247,7 +25247,7 @@
 # finished = Yes
 1	Laq	laq	ADP	_	_	2	case	_	_
 2	kʼichelaj	kʼichelaj	NOUN	_	_	6	obl	_	_
-3	re	re	NOUN	_	_	2	obl	_	_
+3	re	re	NOUN	_	_	2	nmod	_	_
 4	tzʼunun	tzʼunun	NOUN	_	_	3	nmod	_	_
 5	Kaabʼ	kaabʼ	NOUN	_	_	4	flat	_	Error=TokenLevel
 6	wiʼ	wiʼ	ADJ	_	_	0	root	_	_
@@ -25339,7 +25339,7 @@
 2	kaʼmeej	kaʼmeej	NOUN	_	_	4	nmod	_	_
 3	ra	ra	DET	_	_	4	det	_	_
 4	wulew	wulew	NOUN	_	_	1	nsubj	_	_
-5	jwiʼl	jwiʼl	NOUN	_	_	4	obl	_	_
+5	jwiʼl	jwiʼl	NOUN	_	_	1	obl	_	_
 6	in	in	X	_	_	5	nmod	_	_
 7	qaaj	_	X	_	_	6	goeswith	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -29312,7 +29312,7 @@
 3	qawiʼl	qawiʼl	NOUN	_	_	1	obl	_	_
 4	re	re	NOUN	_	_	1	obl	_	_
 5	kʼuluneem	kʼuluneem	NOUN	_	_	4	nmod	_	_
-6	re	re	NOUN	_	_	5	obl	_	_
+6	re	re	NOUN	_	_	5	nmod	_	_
 7	kʼis	kʼis	DET	_	_	8	det	_	_
 8	qelkʼwaal	qelkʼwaal	NOUN	_	_	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -29390,7 +29390,7 @@
 6	xmuchmaj	xmuchmaj	VERB	_	_	0	root	_	_
 7	raj	raj	DET	_	_	8	det	_	_
 8	kʼumbʼaaq	kʼumbʼaaq	NOUN	_	_	6	nsubj	_	_
-9	re	re	NOUN	_	_	8	obl	_	_
+9	re	re	NOUN	_	_	8	nmod	_	_
 10	raqan	raqan	NOUN	_	_	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
@@ -29407,7 +29407,7 @@
 2	tijin	tijin	AUX	_	_	3	aux	_	_
 3	jkʼupiik	jkʼupiik	VERB	_	_	0	root	_	_
 4	wuleew	wuleew	NOUN	_	_	3	obj	_	_
-5	Chʼolaʼ	chʼolaʼ	PROPN	_	_	4	obl	_	SpaceAfter=No
+5	Chʼolaʼ	chʼolaʼ	PROPN	_	_	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -29622,7 +29622,7 @@
 3	chaq	chaq	ADV	_	_	2	advmod	_	_
 4	chuch	chuch	NOUN	_	_	2	nsubj	_	_
 5	wichijil	wichijil	NOUN	_	_	4	nmod	_	_
-6	inwiʼl	inwiʼl	NOUN	_	_	5	obl	_	SpaceAfter=No
+6	inwiʼl	inwiʼl	NOUN	_	_	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -29914,7 +29914,7 @@
 2	nim	nim	ADJ	_	_	3	amod	_	_
 3	mees	mees	NOUN	_	_	1	obj	_	_
 4	la	la	ADP	_	_	5	case	_	_
-5	jraqan	jraqan	NOUN	_	_	1	obj	_	_
+5	jraqan	jraqan	NOUN	_	_	1	obl	_	_
 6	man	man	DET	_	_	7	det	_	_
 7	cheeʼ	cheeʼ	NOUN	_	_	5	nmod	_	_
 8	li	li	DET	_	_	7	det	_	SpaceAfter=No
@@ -30539,7 +30539,7 @@
 # audio = none
 # finished = Yes
 1	Nench	nench	PRON	_	_	4	obl	_	_
-2	kristyaan	kristyaan	NOUN	_	_	1	obl	_	_
+2	kristyaan	kristyaan	NOUN	_	_	1	nmod	_	_
 3	laal	laal	PART	_	_	1	advmod	_	_
 4	intokowik	intokowik	VERB	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
