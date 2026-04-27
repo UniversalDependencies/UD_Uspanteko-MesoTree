@@ -23425,7 +23425,7 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Neen	neen	PRON	_	_	6	obl	_	_
+1	Neen	neen	PRON	_	_	8	nmod	_	_
 2	chak	chak	NOUN	_	_	1	nmod	_	_
 3	man	man	DET	_	_	6	det	_	_
 4	jurjik	jurjik	ADJ	_	_	6	amod	_	_
@@ -25093,7 +25093,7 @@
 # user_id = bkeej
 # timestamp = 1738872427600
 # sent_id = uspan_lex:1480
-# text = Kap ra ´ékʼel katzal raqan jwiʼl man tzʼiʼ.
+# text = Kap ra ékʼel katzal raqan jwiʼl man tzʼiʼ.
 # text[orig] = Kap ra ´ékʼel katzal raqan jwiʼl man tzʼiʼ.
 # text[spa] = Miren ese niño fue mordido por ese perro.
 # genre = examples
