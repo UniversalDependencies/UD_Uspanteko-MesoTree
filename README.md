@@ -24,17 +24,17 @@ Henderson, Robert, Tomás Alberto Méndez López, Ryan Bennett, Meg Harvey, and 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.14
+Data available since: UD v2.19
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: grammar-examples
+Genre: grammar-examples fiction
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Juan Ajsivinac, Robert Henderson, Tomás Méndez López, Cheyenne Wing
+Contributors: Ajsivinac, Juan; Henderson, Robert; Méndez López, Tomás; Wing, Cheyenne
 Contributing: here
 Contact: rhenderson@arizona.edu
 ===============================================================================
