@@ -1223,7 +1223,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1707951123548
+# timestamp = 1791484194498
 # sent_id = uspan_lex:76
 # text = Riʼ tantaa tijbʼij inkʼajol ke wiʼ chaq eskweel ajsik.
 # text[orig] = Riʼ tantaa tijbʼij inkʼajol ke wiʼ chaq eskweel ajsik.
@@ -1231,7 +1231,7 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	DET	_	_	2	advmod	_	_
+1	Riʼ	riʼ	PART	_	_	2	mark	_	_
 2	tantaa	tantaa	VERB	_	_	0	root	_	_
 3	tijbʼij	tijbʼij	VERB	_	_	2	ccomp	_	_
 4	inkʼajol	inkʼajol	NOUN	_	_	3	nsubj	_	_
@@ -1240,7 +1240,7 @@
 7	chaq	chaq	ADV	_	_	6	advmod	_	_
 8	eskweel	eskweel	NOUN	_	_	6	nsubj	_	_
 9	ajsik	ajsik	ADV	_	_	6	advmod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	Error=TokenLevel|SpaceAfter=No
 
 # user_id = bkeej
 # timestamp = 1707951226862
@@ -1847,7 +1847,7 @@
 # finished = Yes
 1	Xalábʼik	xalábʼik	VERB	_	_	0	root	_	_
 2	insiʼ	insiʼ	NOUN	_	_	1	nsubj	_	_
-3	chwij	chwij	NOUN	_	_	1	obl	_	SpaceAfter=No
+3	chwij	chwij	NOUN	_	_	2	obl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -1895,7 +1895,7 @@
 # finished = Yes
 1	Yajiʼ	yajiʼ	NOUN	_	_	0	root	_	_
 2	walibʼchi	walibʼchi	NOUN	_	_	1	nsubj	_	_
-3	richooch	richooch	NOUN	_	_	1	obl	_	SpaceAfter=No
+3	richooch	richooch	NOUN	_	_	2	obl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -2271,8 +2271,8 @@
 4	goom	goom	NOUN	_	_	2	obj	_	_
 5	li	li	DET	_	_	6	det	_	_
 6	Aruur	aruur	NOUN	_	_	2	nsubj	_	_
-7	li	li	DET	_	_	6	det	_	_
-8	pech	pech	NOUN	_	_	6	nmod	_	_
+7	li	li	SCONJ	_	_	8	mark	_	_
+8	pech	pech	NOUN	_	_	6	obl	_	_
 9	rkaʼ	rkaʼ	PART	_	_	10	amod	_	_
 10	Sanantony	sanantony	NOUN	_	_	8	nmod	_	_
 11	li	li	DET	_	_	10	det	_	SpaceAfter=No
@@ -2800,7 +2800,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1739033284698
+# timestamp = 1791484375333
 # sent_id = uspan_lex:173
 # text = Kon too kʼatzan chuchuuʼ Luka Aaj, riʼ taqa li.
 # text[orig] = Kon too kʼatzan chuchuuʼ Luka Aaj, riʼ taqa li.
@@ -2815,9 +2815,9 @@
 5	Luka	luka	PROPN	_	_	4	flat	_	_
 6	Aaj	aaj	PROPN	_	_	5	flat	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	riʼ	riʼ	PRON	_	_	9	det	_	_
+8	riʼ	riʼ	PART	_	_	9	discourse	_	_
 9	taqa	taqa	PRON	_	_	0	root	_	_
-10	li	li	DET	_	_	9	det	_	SpaceAfter=No
+10	li	li	DET	_	_	9	det	_	Error=TokenLevel|SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -3055,13 +3055,13 @@
 5	xjol	xjol	VERB	_	_	1	obl	_	_
 6	ruuq	ruuq	NOUN	_	_	5	obj	_	_
 7	bʼa	bʼa	ADP	_	_	8	case	_	_
-8	jchʼeek	jchʼeek	NOUN	_	_	6	nmod	_	_
+8	jchʼeek	jchʼeek	NOUN	_	_	6	obl	_	_
 9	xchap	xchap	VERB	_	_	5	conj	_	_
 10	man	man	DET	_	_	11	det	_	_
 11	chʼiichʼ	chʼiichʼ	NOUN	_	_	9	obj	_	_
-12	re	re	NOUN	_	_	11	nmod	_	_
+12	re	re	NOUN	_	_	14	case	_	_
 13	man	man	DET	_	_	14	det	_	_
-14	kompwert	kompwert	NOUN	_	_	12	nmod	_	SpaceAfter=No
+14	kompwert	kompwert	NOUN	_	_	11	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -3577,7 +3577,7 @@
 2	tikʼat	tikʼat	VERB	_	_	0	root	_	_
 3	jqʼaaqʼ	jqʼaaqʼ	NOUN	_	_	2	nsubj	_	_
 4	tzikʼ	tzikʼ	ADJ	_	_	5	amod	_	_
-5	ajbʼanol	ajbʼanol	NOUN	_	_	3	nmod	_	_
+5	ajbʼanol	ajbʼanol	NOUN	_	_	3	obl	_	_
 6	xoot	xoot	NOUN	_	_	5	compound	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -3686,7 +3686,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738881845143
+# timestamp = 1791484412548
 # sent_id = uspan_lex:224
 # text = Maq alixik li riʼ ajbʼenol taq kʼex ójor.
 # text[orig] = Maq alixik li riʼ ajbʼenol taq kʼex ójor.
@@ -3697,7 +3697,7 @@
 1	Maq	maq	DET	_	_	2	det	_	_
 2	alixik	alixik	NOUN	_	_	5	nsubj	_	_
 3	li	li	DET	_	_	2	det	_	_
-4	riʼ	riʼ	PRON	_	_	5	obl	_	_
+4	riʼ	riʼ	PART	_	_	5	discourse	_	_
 5	ajbʼenol	ajbʼenol	NOUN	_	_	0	root	_	_
 6	taq	taq	PRON	_	_	5	expl	_	_
 7	kʼex	kʼex	ADJ	_	_	5	compound	_	_
@@ -4101,7 +4101,7 @@
 6	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738881555806
+# timestamp = 1791484488717
 # sent_id = uspan_lex:251
 # text = Maq bʼaa riʼ tibʼenow taq kʼex ralaj abʼiix.
 # text[orig] = Maq bʼaa riʼ tibʼenow taq kʼex ralaj abʼiix.
@@ -4110,8 +4110,8 @@
 # audio = none
 # finished = Yes
 1	Maq	maq	DET	_	_	2	det	_	_
-2	bʼaa	bʼaa	NOUN	_	_	3	nsubj	_	_
-3	riʼ	riʼ	PRON	_	_	4	obl	_	_
+2	bʼaa	bʼaa	NOUN	_	_	4	nsubj	_	_
+3	riʼ	riʼ	PART	_	_	4	discourse	_	_
 4	tibʼenow	tibʼenow	VERB	_	_	0	root	_	_
 5	taq	taq	PRON	_	_	4	expl	_	_
 6	kʼex	kʼex	ADV	_	_	4	advmod	_	_
@@ -5415,7 +5415,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738881195756
+# timestamp = 1791484651884
 # sent_id = uspan_lex:326
 # text = Riʼ man bʼujbʼik rij laj wákix xalqʼajik.
 # text[orig] = Riʼ man bʼujbʼik rij laj wákix xalqʼajik.
@@ -5423,12 +5423,12 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	PRON	_	_	7	obl	_	_
-2	man	man	DET	_	_	4	det	_	_
-3	bʼujbʼik	bʼujbʼik	ADJ	_	_	4	amod	_	_
-4	rij	rij	NOUN	_	_	1	nmod	_	_
-5	laj	laj	ADV	_	_	6	compound	_	_
-6	wákix	wákix	NOUN	_	_	4	nmod	_	_
+1	Riʼ	riʼ	PART	_	_	7	discourse	_	_
+2	man	man	DET	_	_	6	det	_	_
+3	bʼujbʼik	bʼujbʼik	ADJ	_	_	6	amod	_	_
+4	rij	rij	NOUN	_	_	6	amod	_	_
+5	laj	laj	ADV	_	_	4	advmod	_	_
+6	wákix	wákix	NOUN	_	_	7	nsubj	_	_
 7	xalqʼajik	xalqʼajik	VERB	_	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
@@ -5445,7 +5445,7 @@
 2	qe	qe	ADV	_	_	1	advmod	_	_
 3	rij	rij	NOUN	_	_	1	obj	_	_
 4	chi	chi	ADP	_	_	5	case	_	_
-5	cheeʼ	cheeʼ	NOUN	_	_	1	obl	_	_
+5	cheeʼ	cheeʼ	NOUN	_	_	3	obl	_	_
 6	xen	xen	VERB	_	_	1	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -5801,7 +5801,7 @@
 6	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738881128700
+# timestamp = 1791484837634
 # sent_id = uspan_lex:349
 # text = Per riʼ li ra bʼuuq ra anm jbʼiij Lupaa.
 # text[orig] = Per riʼ li ra bʼuuq ra anm jbʼiij Lupaa.
@@ -5809,16 +5809,16 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Per	per	CCONJ	_	_	9	cc	_	_
-2	riʼ	riʼ	PRON	_	_	9	obl	_	_
+1	Per	per	CCONJ	_	_	7	cc	_	_
+2	riʼ	riʼ	PART	_	_	7	discourse	_	_
 3	li	li	ADP	_	_	5	case	_	_
 4	ra	ra	DET	_	_	5	det	_	_
-5	bʼuuq	bʼuuq	NOUN	_	_	9	acl	_	_
+5	bʼuuq	bʼuuq	NOUN	_	_	7	nsubj	_	_
 6	ra	ra	DET	_	_	7	det	_	_
-7	anm	anm	NOUN	_	_	8	nmod	_	_
-8	jbʼiij	jbʼiij	NOUN	_	_	9	nsubj	_	_
-9	Lupaa	lupaa	PROPN	_	_	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	anm	anm	NOUN	_	_	0	root	_	_
+8	jbʼiij	jbʼiij	NOUN	_	_	7	acl	_	_
+9	Lupaa	lupaa	PROPN	_	_	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	Error=TokenLevel|SpaceAfter=No
 
 # user_id = bkeej
 # timestamp = 1738881127145
@@ -5831,7 +5831,7 @@
 # finished = Yes
 1	Xaloqʼaʼ	xaloqʼaʼ	VERB	_	_	0	root	_	_
 2	achachabʼ	achachabʼ	NOUN	_	_	1	obj	_	_
-3	re	re	NOUN	_	_	1	obl	_	_
+3	re	re	NOUN	_	_	2	obl	_	_
 4	achak	achak	NOUN	_	_	3	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -6382,7 +6382,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738881038981
+# timestamp = 1791484901886
 # sent_id = uspan_lex:383
 # text = Riʼ man chaqʼxeel xkʼuliʼ chuch man nabʼaal.
 # text[orig] = Riʼ man chaqʼxeel xkʼuliʼ chuch man nabʼaal.
@@ -6390,10 +6390,10 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	PRON	_	_	0	root	_	_
+1	Riʼ	riʼ	PART	_	_	4	discourse	_	_
 2	man	man	DET	_	_	3	det	_	_
-3	chaqʼxeel	chaqʼxeel	NOUN	_	_	1	nsubj	_	_
-4	xkʼuliʼ	xkʼuliʼ	VERB	_	_	3	acl	_	_
+3	chaqʼxeel	chaqʼxeel	NOUN	_	_	4	nsubj	_	_
+4	xkʼuliʼ	xkʼuliʼ	VERB	_	_	0	root	_	_
 5	chuch	chuch	ADP	_	_	7	case	_	_
 6	man	man	DET	_	_	7	det	_	_
 7	nabʼaal	nabʼaal	NOUN	_	_	4	obl	_	SpaceAfter=No
@@ -7431,7 +7431,7 @@
 2	tqakoj	tqakoj	VERB	_	_	0	root	_	_
 3	nij	nij	ADJ	_	_	4	amod	_	_
 4	qleen	qleen	NOUN	_	_	2	obj	_	_
-5	chi	chi	ADP	_	_	6	case	_	_
+5	chi	chi	ADP	_	_	6	obl	_	_
 6	qiij	qiij	NOUN	_	_	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -8003,7 +8003,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738880689027
+# timestamp = 1791485003166
 # sent_id = uspan_lex:478
 # text = Riʼ takʼam jqʼolal axíkin tatzʼaj chiwch rkaʼ las atiʼsaj.
 # text[orig] = Riʼ takʼam jqʼolal axíkin tatzʼaj chiwch rkaʼ las atiʼsaj.
@@ -8011,7 +8011,7 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	DET	_	_	2	advmod	_	_
+1	Riʼ	riʼ	PART	_	_	2	mark	_	_
 2	takʼam	takʼam	VERB	_	_	0	root	_	_
 3	jqʼolal	jqʼolal	NOUN	_	_	2	obj	_	_
 4	axíkin	axíkin	NOUN	_	_	3	nmod	_	_
@@ -8020,7 +8020,7 @@
 7	rkaʼ	rkaʼ	PART	_	_	6	advmod	_	_
 8	las	las	ADV	_	_	9	advmod	_	_
 9	atiʼsaj	atiʼsaj	VERB	_	_	6	advcl	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	Error=TokenLevel|SpaceAfter=No
 
 # user_id = bkeej
 # timestamp = 1738880686566
@@ -8324,11 +8324,11 @@
 # audio = none
 # finished = Yes
 1	Kʼexiʼ	kʼexiʼ	ADJ	_	_	0	root	_	_
-2	jkojik	jkojik	VERB	_	_	1	csubj	_	_
+2	jkojik	jkojik	VERB	_	_	1	obj	_	_
 3	maq	maq	DET	_	_	4	det	_	_
-4	jcheeʼal	jcheeʼal	NOUN	_	_	2	nsubj	_	_
+4	jcheeʼal	jcheeʼal	NOUN	_	_	1	nsubj	_	_
 5	chiʼ	chiʼ	ADP	_	_	6	case	_	_
-6	xoot	xoot	NOUN	_	_	2	obl	_	SpaceAfter=No
+6	xoot	xoot	NOUN	_	_	4	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -8781,7 +8781,7 @@
 4	man	man	DET	_	_	8	det	_	_
 5	chotchik	chotchik	ADJ	_	_	8	amod	_	_
 6	chi	chi	ADP	_	_	7	case	_	_
-7	jyook	jyook	NOUN	_	_	8	nmod	_	_
+7	jyook	jyook	NOUN	_	_	8	obl	_	_
 8	ánim	ánim	NOUN	_	_	3	nmod	_	_
 9	li	li	DET	_	_	8	det	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -9906,7 +9906,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	la	la	DET	_	_	7	det	_	_
 7	taarde	taarde	NOUN	_	_	4	nmod	_	_
-8	jli	jli	ADP	_	_	9	case	_	_
+8	jli	jli	ADP	_	_	9	obl	_	_
 9	Chʼajuul	chʼajuul	PROPN	_	_	1	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -10185,7 +10185,7 @@
 7	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738879842757
+# timestamp = 1791485084884
 # sent_id = uspan_lex:604
 # text = Kʼis ajkʼay taq ixim riʼ taqaʼ maq Chʼaʼchʼ.
 # text[orig] = Kʼis ajkʼay taq ixim riʼ taqaʼ maq Chʼaʼchʼ.
@@ -10197,7 +10197,7 @@
 2	ajkʼay	ajkʼay	NOUN	_	_	0	root	_	_
 3	taq	taq	PRON	_	_	2	expl	_	_
 4	ixim	ixim	NOUN	_	_	2	nmod	_	_
-5	riʼ	riʼ	PRON	_	_	6	obj	_	_
+5	riʼ	riʼ	PART	_	_	6	mark	_	_
 6	taqaʼ	taqaʼ	VERB	_	_	2	acl	_	_
 7	maq	maq	DET	_	_	8	det	_	_
 8	Chʼaʼchʼ	chʼaʼchʼ	NOUN	_	_	6	nsubj	_	SpaceAfter=No
@@ -11048,7 +11048,7 @@
 1	Xinsok	xinsok	VERB	_	_	0	root	_	_
 2	ral	ral	DET	_	_	3	det	_	_
 3	inchʼibʼ	inchʼibʼ	NOUN	_	_	1	obj	_	_
-4	re	re	NOUN	_	_	3	nmod	_	_
+4	re	re	NOUN	_	_	3	obl	_	_
 5	inqʼu	inqʼu	NOUN	_	_	4	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -11181,8 +11181,8 @@
 1	Kitaʼ	kitaʼ	PART	_	_	2	advmod	_	_
 2	xinchʼobʼ	xinchʼobʼ	VERB	_	_	0	root	_	_
 3	jwich	jwich	NOUN	_	_	2	obj	_	_
-4	neen	neen	PRON	_	_	3	nmod	_	_
-5	ánim	ánim	NOUN	_	_	4	nmod	_	_
+4	neen	neen	PRON	_	_	5	obl	_	_
+5	ánim	ánim	NOUN	_	_	3	nmod	_	_
 6	laal	laal	PART	_	_	5	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -12323,7 +12323,7 @@
 9	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738879318963
+# timestamp = 1791489522072
 # sent_id = uspan_lex:730
 # text = Oj chakunoq o riʼ tebʼa qus teqachep elaqʼ.
 # text[orig] = Oj chakunoq o riʼ tebʼa qus teqachep elaqʼ.
@@ -12334,8 +12334,8 @@
 1	Oj	oj	PRON	_	_	2	nsubj	_	_
 2	chakunoq	chakunoq	VERB	_	_	0	root	_	_
 3	o	o	CCONJ	_	_	7	cc	_	_
-4	riʼ	riʼ	DET	_	_	5	obl	_	_
-5	tebʼa	tebʼa	ADJ	_	_	7	advcl	_	_
+4	riʼ	riʼ	PART	_	_	7	discourse	_	_
+5	tebʼa	tebʼa	ADJ	_	_	7	advmod	_	_
 6	qus	qus	ADV	_	_	5	advmod	_	_
 7	teqachep	teqachep	VERB	_	_	2	conj	_	_
 8	elaqʼ	elaqʼ	NOUN	_	_	7	obj	_	SpaceAfter=No
@@ -12366,7 +12366,7 @@
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # user_id = bkeej
-# timestamp = 1738879314993
+# timestamp = 1791489515173
 # sent_id = uspan_lex:732
 # text = Wchooch riʼ wiʼ laj sukʼlal elbʼiqʼiij.
 # text[orig] = Wchooch riʼ wiʼ laj sukʼlal elbʼiqʼiij.
@@ -12375,7 +12375,7 @@
 # audio = none
 # finished = Yes
 1	Wchooch	wchooch	NOUN	_	_	0	root	_	_
-2	riʼ	riʼ	SCONJ	_	_	3	mark	_	_
+2	riʼ	riʼ	PART	_	_	3	mark	_	_
 3	wiʼ	wiʼ	ADJ	_	_	1	acl	_	_
 4	laj	laj	ADP	_	_	6	case	_	_
 5	sukʼlal	sukʼlal	ADV	_	_	6	advmod	_	_
@@ -13354,7 +13354,7 @@
 5	taʼ	taʼ	PART	_	_	6	advmod	_	_
 6	dyakwerd	dyakwerd	VERB	_	_	3	acl	_	_
 7	taq	taq	PRON	_	_	6	expl	_	_
-8	rikʼi	rikʼi	NOUN	_	_	6	obl	_	_
+8	rikʼi	rikʼi	NOUN	_	_	1	obj	_	_
 9	maq	maq	DET	_	_	11	det	_	_
 10	niʼj	niʼj	DET	_	_	11	det	_	_
 11	ikim	ikim	NOUN	_	_	8	nmod	_	SpaceAfter=No
@@ -13402,7 +13402,7 @@
 1	Taʼ	taʼ	PART	_	_	2	advmod	_	_
 2	tikʼaj	tikʼaj	VERB	_	_	0	root	_	_
 3	neen	neen	PRON	_	_	2	obl	_	_
-4	moo	moo	NOUN	_	_	3	nmod	_	_
+4	moo	moo	NOUN	_	_	3	obl	_	_
 5	ruxbʼ	ruxbʼ	NOUN	_	_	2	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -13626,7 +13626,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738878941145
+# timestamp = 1791485427871
 # sent_id = uspan_lex:806
 # text = Riʼ sikʼ anim li tilbʼen wee.
 # text[orig] = Riʼ sikʼ anim li tilbʼen wee.
@@ -13634,13 +13634,13 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	PRON	_	_	0	root	_	_
+1	Riʼ	riʼ	PART	_	_	3	discourse	_	_
 2	sikʼ	sikʼ	ADJ	_	_	3	amod	_	_
-3	anim	anim	NOUN	_	_	1	nsubj	_	_
+3	anim	anim	NOUN	_	_	0	root	_	_
 4	li	li	SCONJ	_	_	5	mark	_	_
 5	tilbʼen	tilbʼen	VERB	_	_	3	acl	_	_
 6	wee	wee	NOUN	_	_	5	obl	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # user_id = bkeej
 # timestamp = 1738878938175
@@ -13946,7 +13946,7 @@
 # finished = Yes
 1	Pok	pok	ADJ	_	_	0	root	_	_
 2	sumaal	sumaal	NOUN	_	_	1	nsubj	_	_
-3	rij	rij	NOUN	_	_	1	obl	_	_
+3	rij	rij	NOUN	_	_	2	obl	_	_
 4	man	man	DET	_	_	5	det	_	_
 5	anim	anim	NOUN	_	_	3	nmod	_	_
 6	li	li	DET	_	_	5	det	_	SpaceAfter=No
@@ -14019,7 +14019,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738878867001
+# timestamp = 1791485536985
 # sent_id = uspan_lex:829
 # text = Riʼ re tijin titinan ra rikʼlaal.
 # text[orig] = Riʼ re tijin titinan ra rikʼlaal.
@@ -14027,7 +14027,7 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	PRON	_	_	4	obl	_	_
+1	Riʼ	riʼ	PART	_	_	4	discourse	_	_
 2	re	re	PRON	_	_	4	nsubj	_	_
 3	tijin	tijin	AUX	_	_	4	aux	_	_
 4	titinan	titinan	VERB	_	_	0	root	_	_
@@ -14294,7 +14294,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738878799838
+# timestamp = 1791485760064
 # sent_id = uspan_lex:845
 # text = Riʼ qʼiij ri titzʼan taq kʼis ékʼel laʼ ixkabʼ.
 # text[orig] = Riʼ qʼiij ri titzʼan taq kʼis ékʼel laʼ ixkabʼ.
@@ -14302,7 +14302,7 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	DET	_	_	2	det	_	_
+1	Riʼ	riʼ	PART	_	_	4	discourse	_	_
 2	qʼiij	qʼiij	ADV	_	_	4	advmod	_	_
 3	ri	ri	DET	_	_	2	det	_	_
 4	titzʼan	titzʼan	VERB	_	_	0	root	_	_
@@ -14311,7 +14311,7 @@
 7	ékʼel	ékʼel	NOUN	_	_	4	nsubj	_	_
 8	laʼ	laʼ	ADP	_	_	9	case	_	_
 9	ixkabʼ	ixkabʼ	NOUN	_	_	4	obl	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	Error=TokenLevel|SpaceAfter=No
 
 # user_id = bkeej
 # timestamp = 1738878797633
@@ -15231,7 +15231,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738878559093
+# timestamp = 1791485809785
 # sent_id = uspan_lex:901
 # text = Riʼ chaq qajabʼal li petzel.
 # text[orig] = Riʼ chaq qajabʼal li petzel.
@@ -15239,7 +15239,7 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	PRON	_	_	5	obl	_	_
+1	Riʼ	riʼ	PART	_	_	5	discourse	_	_
 2	chaq	chaq	ADV	_	_	5	advmod	_	_
 3	qajabʼal	qajabʼal	NOUN	_	_	5	nsubj	_	_
 4	li	li	DET	_	_	3	det	_	_
@@ -15266,7 +15266,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738878555683
+# timestamp = 1791485942414
 # sent_id = uspan_lex:903
 # text = Juntir li ya xlatzʼabʼin riʼ ya jachal chaq tra kʼitj re jun.
 # text[orig] = Juntir li ya xlatzʼabʼin riʼ ya jachal chaq tra kʼitj re jun.
@@ -15278,12 +15278,12 @@
 2	li	li	PRON	_	_	1	obl	_	_
 3	ya	ya	ADV	_	_	4	advmod	_	_
 4	xlatzʼabʼin	xlatzʼabʼin	VERB	_	_	0	root	_	_
-5	riʼ	riʼ	PRON	_	_	4	obl	_	_
+5	riʼ	riʼ	PART	_	_	7	mark	_	_
 6	ya	ya	ADV	_	_	7	advmod	_	_
-7	jachal	jachal	ADJ	_	_	5	acl	_	_
+7	jachal	jachal	ADJ	_	_	4	advcl	_	_
 8	chaq	chaq	ADV	_	_	7	advmod	_	_
 9	tra	tra	DET	_	_	12	det	_	_
-10	kʼitj	kʼitj	ADV	_	_	12	advmod	_	_
+10	kʼitj	kʼitj	ADV	_	_	12	advmod	_	Error=TokenLevel
 11	re	re	DET	_	_	12	det	_	_
 12	jun	jun	PRON	_	_	7	nsubj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -16607,7 +16607,7 @@
 5	kʼu	kʼu	PRON	_	_	4	compound	_	_
 6	mood	mood	ADV	_	_	7	advmod	_	_
 7	chaak	chaak	NOUN	_	_	4	nmod	_	_
-8	re	re	NOUN	_	_	7	nmod	_	_
+8	re	re	NOUN	_	_	7	obl	_	_
 9	tzuqbʼel	tzuqbʼel	NOUN	_	_	8	nmod	_	_
 10	qibʼ	qibʼ	NOUN	_	_	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -17438,7 +17438,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # user_id = bkeej
-# timestamp = 1738877715177
+# timestamp = 1791486032015
 # sent_id = uspan_lex:1030
 # text = Riʼ tra jee eekʼ tij kojtaq re nim qʼiij simyeel.
 # text[orig] = Riʼ tra jee eekʼ tij kojtaq re nim qʼiij simyeel.
@@ -17446,7 +17446,7 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	DET	_	_	4	det	_	_
+1	Riʼ	riʼ	PART	_	_	5	discourse	_	_
 2	tra	tra	DET	_	_	4	det	_	_
 3	jee	jee	NOUN	_	_	4	compound	_	_
 4	eekʼ	eekʼ	NOUN	_	_	5	obj	_	_
@@ -17455,7 +17455,7 @@
 7	re	re	NOUN	_	_	5	obl	_	_
 8	nim	nim	X	_	_	7	nmod	_	_
 9	qʼiij	_	X	_	_	8	goeswith	_	_
-10	simyeel	simyeel	PROPN	_	_	8	nmod	_	SpaceAfter=No
+10	simyeel	simyeel	PROPN	_	_	8	nmod	_	Error=TokenLevel|SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -18469,7 +18469,7 @@
 9	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738877527822
+# timestamp = 1791486088363
 # sent_id = uspan_lex:1090
 # text = Ri chótix riʼ qes qachótix jiiʼn.
 # text[orig] = Ri chótix riʼ qes qachótix jiiʼn.
@@ -18479,7 +18479,7 @@
 # finished = Yes
 1	Ri	ri	DET	_	_	2	det	_	_
 2	chótix	chótix	NOUN	_	_	5	nsubj	_	_
-3	riʼ	riʼ	DET	_	_	2	det	_	_
+3	riʼ	riʼ	PART	_	_	5	discourse	_	_
 4	qes	qes	ADV	_	_	5	advmod	_	_
 5	qachótix	qachótix	NOUN	_	_	0	root	_	_
 6	jiiʼn	jiiʼn	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -19173,7 +19173,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738877356704
+# timestamp = 1791486204060
 # sent_id = uspan_lex:1131
 # text = Wiʼ jun jmuul sinik riʼ maq jmaam sinik wiʼ taq kilaʼ.
 # text[orig] = Wiʼ jun jmuul sinik riʼ maq jmaam sinik wiʼ taq kilaʼ.
@@ -19185,12 +19185,12 @@
 2	jun	jun	DET	_	_	3	det	_	_
 3	jmuul	jmuul	NOUN	_	_	1	nsubj	_	_
 4	sinik	sinik	NOUN	_	_	3	nmod	_	_
-5	riʼ	riʼ	SCONJ	_	_	9	mark	_	_
+5	riʼ	riʼ	PART	_	_	9	mark	_	_
 6	maq	maq	DET	_	_	7	det	_	_
 7	jmaam	jmaam	NOUN	_	_	9	nsubj	_	_
 8	sinik	sinik	NOUN	_	_	7	nmod	_	_
-9	wiʼ	wiʼ	ADJ	_	_	4	acl	_	_
-10	taq	taq	PRON	_	_	9	expl	_	_
+9	wiʼ	wiʼ	ADJ	_	_	4	advcl	_	_
+10	taq	taq	PRON	_	_	9	expl	_	Error=TokenLevel
 11	kilaʼ	kilaʼ	ADV	_	_	9	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -19945,7 +19945,7 @@
 3	jornil	jornil	ADJ	_	_	2	compound	_	_
 4	re	re	NOUN	_	_	2	obl	_	_
 5	akixlanwa	akixlanwa	NOUN	_	_	4	nmod	_	_
-6	aat	aat	PRON	_	_	5	nmod	_	SpaceAfter=No
+6	aat	aat	PRON	_	_	4	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -22147,7 +22147,7 @@
 2	pee	_	X	_	_	1	goeswith	_	_
 3	Jumuq	jumuq	PROPN	_	_	1	obl	_	_
 4	li	li	ADP	_	_	5	case	_	_
-5	kʼay	kʼay	NOUN	_	_	1	obl	_	SpaceAfter=No
+5	kʼay	kʼay	NOUN	_	_	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -22540,7 +22540,7 @@
 6	tzʼiʼ	tzʼiʼ	NOUN	_	_	4	nsubj	_	_
 7	re	re	NOUN	_	_	4	obl	_	_
 8	qelen	qelen	NOUN	_	_	7	nmod	_	_
-9	awe	awe	NOUN	_	_	8	nmod	_	SpaceAfter=No
+9	awe	awe	NOUN	_	_	8	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -23071,7 +23071,7 @@
 4	xajabʼ	xajabʼ	NOUN	_	_	1	nsubj	_	_
 5	rikʼil	rikʼil	NOUN	_	_	1	obl	_	_
 6	la	la	ADP	_	_	7	case	_	_
-7	jaa	jaa	NOUN	_	_	5	nmod	_	SpaceAfter=No
+7	jaa	jaa	NOUN	_	_	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -23425,7 +23425,7 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Neen	neen	PRON	_	_	8	nmod	_	_
+1	Neen	neen	PRON	_	_	6	obl	_	_
 2	chak	chak	NOUN	_	_	1	nmod	_	_
 3	man	man	DET	_	_	6	det	_	_
 4	jurjik	jurjik	ADJ	_	_	6	amod	_	_
@@ -23524,7 +23524,7 @@
 2	jali	jali	ADV	_	_	1	advmod	_	_
 3	li	li	ADP	_	_	4	case	_	_
 4	jaʼ	jaʼ	NOUN	_	_	1	obl	_	_
-5	re	re	NOUN	_	_	4	nmod	_	_
+5	re	re	NOUN	_	_	4	obl	_	_
 6	Cholaʼ	cholaʼ	PROPN	_	_	5	nmod	_	_
 7	xpe	xpe	VERB	_	_	1	advcl	_	_
 8	man	man	DET	_	_	9	det	_	_
@@ -23945,7 +23945,7 @@
 4	maj	maj	DET	_	_	5	det	_	_
 5	chʼaakʼ	chʼaakʼ	NOUN	_	_	3	nmod	_	_
 6	man	man	DET	_	_	7	det	_	_
-7	anim	anim	NOUN	_	_	5	nmod	_	_
+7	anim	anim	NOUN	_	_	5	obl	_	_
 8	li	li	DET	_	_	7	det	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -24194,7 +24194,7 @@
 # finished = Yes
 1	Bʼenol	bʼenol	ADJ	_	_	0	root	_	_
 2	rutzil	rutzil	NOUN	_	_	1	nsubj	_	_
-3	inwiʼl	inwiʼl	NOUN	_	_	2	nmod	_	_
+3	inwiʼl	inwiʼl	NOUN	_	_	2	obl	_	_
 4	re	re	NOUN	_	_	1	obl	_	_
 5	maq	maq	DET	_	_	6	det	_	_
 6	jyaachʼul	jyaachʼul	NOUN	_	_	4	nmod	_	_
@@ -24580,7 +24580,7 @@
 7	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738872496989
+# timestamp = 1791487320017
 # sent_id = uspan_lex:1449
 # text = Jiqʼiij Sant riʼ jqʼiijaq kamnaqibʼ li.
 # text[orig] = Jiqʼiij Sant riʼ jqʼiijaq kamnaqibʼ li.
@@ -24588,13 +24588,13 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Jiqʼiij	jiqʼiij	NOUN	_	_	0	root	_	_
+1	Jiqʼiij	jiqʼiij	NOUN	_	_	4	nsubj	_	_
 2	Sant	sant	NOUN	_	_	1	nmod	_	_
-3	riʼ	riʼ	PRON	_	_	1	obl	_	_
-4	jqʼiijaq	jqʼiijaq	NOUN	_	_	3	nmod	_	_
+3	riʼ	riʼ	PART	_	_	4	discourse	_	_
+4	jqʼiijaq	jqʼiijaq	NOUN	_	_	0	root	_	_
 5	kamnaqibʼ	kamnaqibʼ	NOUN	_	_	4	nmod	_	_
 6	li	li	DET	_	_	4	det	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # user_id = bkeej
 # timestamp = 1738872494294
@@ -25093,7 +25093,7 @@
 # user_id = bkeej
 # timestamp = 1738872427600
 # sent_id = uspan_lex:1480
-# text = Kap ra ékʼel katzal raqan jwiʼl man tzʼiʼ.
+# text = Kap ra ´ékʼel katzal raqan jwiʼl man tzʼiʼ.
 # text[orig] = Kap ra ´ékʼel katzal raqan jwiʼl man tzʼiʼ.
 # text[spa] = Miren ese niño fue mordido por ese perro.
 # genre = examples
@@ -25101,10 +25101,10 @@
 # finished = Yes
 1	Kap	kap	VERB	_	_	0	root	_	_
 2	ra	ra	DET	_	_	3	det	_	_
-3	ékʼel	ékʼel	NOUN	_	_	1	obj	_	_
-4	katzal	katzal	VERB	_	_	3	acl	_	_
+3	´ékʼel	´ékʼel	NOUN	_	_	1	obj	_	_
+4	katzal	katzal	VERB	_	_	1	advcl	_	_
 5	raqan	raqan	NOUN	_	_	4	nsubj	_	_
-6	jwiʼl	jwiʼl	NOUN	_	_	4	obl	_	_
+6	jwiʼl	jwiʼl	NOUN	_	_	5	obl	_	_
 7	man	man	DET	_	_	8	det	_	_
 8	tzʼiʼ	tzʼiʼ	NOUN	_	_	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -25247,7 +25247,7 @@
 # finished = Yes
 1	Laq	laq	ADP	_	_	2	case	_	_
 2	kʼichelaj	kʼichelaj	NOUN	_	_	6	obl	_	_
-3	re	re	NOUN	_	_	2	nmod	_	_
+3	re	re	NOUN	_	_	2	obl	_	_
 4	tzʼunun	tzʼunun	NOUN	_	_	3	nmod	_	_
 5	Kaabʼ	kaabʼ	NOUN	_	_	4	flat	_	Error=TokenLevel
 6	wiʼ	wiʼ	ADJ	_	_	0	root	_	_
@@ -25339,7 +25339,7 @@
 2	kaʼmeej	kaʼmeej	NOUN	_	_	4	nmod	_	_
 3	ra	ra	DET	_	_	4	det	_	_
 4	wulew	wulew	NOUN	_	_	1	nsubj	_	_
-5	jwiʼl	jwiʼl	NOUN	_	_	1	obl	_	_
+5	jwiʼl	jwiʼl	NOUN	_	_	4	obl	_	_
 6	in	in	X	_	_	5	nmod	_	_
 7	qaaj	_	X	_	_	6	goeswith	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -27059,7 +27059,7 @@
 7	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738872033794
+# timestamp = 1791487386184
 # sent_id = uspan_lex:1592
 # text = Riʼ chaq kʼisbʼ re inkubʼal xin tij mir.
 # text[orig] = Riʼ chaq kʼisbʼ re inkubʼal xin tij mir.
@@ -27067,8 +27067,8 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	ADV	_	_	3	advmod	_	_
-2	chaq	chaq	ADV	_	_	1	advmod	_	_
+1	Riʼ	riʼ	PART	_	_	3	discourse	_	_
+2	chaq	chaq	ADV	_	_	3	advmod	_	_
 3	kʼisbʼ	kʼisbʼ	ADJ	_	_	0	root	_	_
 4	re	re	NOUN	_	_	3	obl	_	_
 5	inkubʼal	inkubʼal	NOUN	_	_	4	nmod	_	_
@@ -28452,7 +28452,7 @@
 7	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # user_id = bkeej
-# timestamp = 1738866646040
+# timestamp = 1791488058841
 # sent_id = uspan_lex:1671
 # text = Riʼ man kʼorochoch wi kili naliʼ tikʼorkʼonik.
 # text[orig] = Riʼ man kʼorochoch wi kili naliʼ tikʼorkʼonik.
@@ -28460,7 +28460,7 @@
 # genre = examples
 # audio = none
 # finished = Yes
-1	Riʼ	riʼ	DET	_	_	3	det	_	_
+1	Riʼ	riʼ	PART	_	_	4	discourse	_	_
 2	man	man	DET	_	_	3	det	_	_
 3	kʼorochoch	kʼorochoch	NOUN	_	_	4	nsubj	_	_
 4	wi	wi	VERB	_	_	0	root	_	_
@@ -29312,7 +29312,7 @@
 3	qawiʼl	qawiʼl	NOUN	_	_	1	obl	_	_
 4	re	re	NOUN	_	_	1	obl	_	_
 5	kʼuluneem	kʼuluneem	NOUN	_	_	4	nmod	_	_
-6	re	re	NOUN	_	_	5	nmod	_	_
+6	re	re	NOUN	_	_	5	obl	_	_
 7	kʼis	kʼis	DET	_	_	8	det	_	_
 8	qelkʼwaal	qelkʼwaal	NOUN	_	_	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -29390,7 +29390,7 @@
 6	xmuchmaj	xmuchmaj	VERB	_	_	0	root	_	_
 7	raj	raj	DET	_	_	8	det	_	_
 8	kʼumbʼaaq	kʼumbʼaaq	NOUN	_	_	6	nsubj	_	_
-9	re	re	NOUN	_	_	8	nmod	_	_
+9	re	re	NOUN	_	_	8	obl	_	_
 10	raqan	raqan	NOUN	_	_	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
@@ -29407,7 +29407,7 @@
 2	tijin	tijin	AUX	_	_	3	aux	_	_
 3	jkʼupiik	jkʼupiik	VERB	_	_	0	root	_	_
 4	wuleew	wuleew	NOUN	_	_	3	obj	_	_
-5	Chʼolaʼ	chʼolaʼ	PROPN	_	_	3	obl	_	SpaceAfter=No
+5	Chʼolaʼ	chʼolaʼ	PROPN	_	_	4	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -29622,7 +29622,7 @@
 3	chaq	chaq	ADV	_	_	2	advmod	_	_
 4	chuch	chuch	NOUN	_	_	2	nsubj	_	_
 5	wichijil	wichijil	NOUN	_	_	4	nmod	_	_
-6	inwiʼl	inwiʼl	NOUN	_	_	5	nmod	_	SpaceAfter=No
+6	inwiʼl	inwiʼl	NOUN	_	_	5	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # user_id = bkeej
@@ -29914,7 +29914,7 @@
 2	nim	nim	ADJ	_	_	3	amod	_	_
 3	mees	mees	NOUN	_	_	1	obj	_	_
 4	la	la	ADP	_	_	5	case	_	_
-5	jraqan	jraqan	NOUN	_	_	1	obl	_	_
+5	jraqan	jraqan	NOUN	_	_	1	obj	_	_
 6	man	man	DET	_	_	7	det	_	_
 7	cheeʼ	cheeʼ	NOUN	_	_	5	nmod	_	_
 8	li	li	DET	_	_	7	det	_	SpaceAfter=No
@@ -30539,7 +30539,7 @@
 # audio = none
 # finished = Yes
 1	Nench	nench	PRON	_	_	4	obl	_	_
-2	kristyaan	kristyaan	NOUN	_	_	1	nmod	_	_
+2	kristyaan	kristyaan	NOUN	_	_	1	obl	_	_
 3	laal	laal	PART	_	_	1	advmod	_	_
 4	intokowik	intokowik	VERB	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -31033,4 +31033,3 @@
 3	Luuʼ	luuʼ	PROPN	_	_	1	nsubj	_	_
 4	chaʼ	chaʼ	VERB	_	_	1	advcl	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
-
