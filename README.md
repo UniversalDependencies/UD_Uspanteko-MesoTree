@@ -20,6 +20,11 @@ Henderson, Robert M. and Ryan T. Bennett. Uspanteko Collection of Ryan Bennett a
 Henderson, Robert, Tomás Alberto Méndez López, Ryan Bennett, Meg Harvey, and Virgilio Tomás Méndez. "Xoqoneb’: una historia uspanteka de las tierras altas centrales de Guatemala." Tlalocan 27, no. 2, 2022:125-160.
 
 
+# Changelog
+
+* 2026-11-15 v2.19
+  * Initial release in Universal Dependencies.
+
 
 
 <pre>
