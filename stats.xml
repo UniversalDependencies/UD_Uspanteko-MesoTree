@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>1787</sentences><tokens>13161</tokens><words>13161</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>1787</sentences><tokens>13161</tokens><words>13161</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="3234" /><!-- ., man, li, ra, chaq, re, jun, taq, chi, wiʼ, anim, pok, qe, kitaʼ, maq -->
+  <forms unique="3359" /><!-- ., man, li, ra, chaq, re, jun, taq, chi, wiʼ, anim, pok, qe, kitaʼ, maq -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">752</tag><!-- wiʼ, tzikʼ, qus, kʼex, pok, nim, simin, kʼiy, qusiʼ, nimaq -->
+    <tag name="ADP">455</tag><!-- li, chi, laj, laʼ, laq, bʼa, la, chiʼ, chuch, chij -->
+    <tag name="ADV">1327</tag><!-- chaq, qe, pok, kilaʼ, jor, mir, lajori, kitaʼ, iwir, chikiʼ -->
+    <tag name="AUX">39</tag><!-- tijin, tijiniʼ -->
+    <tag name="CCONJ">30</tag><!-- i, per, pero, rikʼil, o, peer, pech, pwes, rikʼi -->
+    <tag name="DET">1802</tag><!-- man, li, ra, maq, jun, tra, yaj, re, kʼis, ral -->
+    <tag name="INTJ">12</tag><!-- maa, a, alee, bay, bʼa, bʼonaq, eew, jiiʼn, jja, koom -->
+    <tag name="NOUN">3716</tag><!-- re, anim, wunaq, ékʼel, jwiʼl, jwich, rij, jaʼ, jaa, cheeʼ -->
+    <tag name="NUM">169</tag><!-- jun, kibʼ, juun, jkabʼ, juj, kiibʼ, uxubʼ, jobʼ, joobʼ, joʼ -->
+    <tag name="PART">247</tag><!-- kitaʼ, bʼi, taq, taʼ, bʼik, na, qe, kaʼ, kʼu, ma -->
+    <tag name="PRON">337</tag><!-- taq, in, neen, iin, jun, aat, riʼ, re, oj, lamas -->
+    <tag name="PROPN">133</tag><!-- luʼ, teek, keel, laʼs, liin, siin, bʼakamebʼ, chʼiit, chʼolaʼ, in -->
+    <tag name="PUNCT">1804</tag><!-- ., ,, ?, (, ) -->
+    <tag name="SCONJ">138</tag><!-- chij, chi, li, re, ke, neen, porke, ri, i, kʼis -->
+    <tag name="VERB">1747</tag><!-- xen, tren, kap, wiʼ, xiʼ, xinloqʼ, xintaw, xqʼax, xok, xuq -->
+    <tag name="X">453</tag><!-- _, ti, in, xin, a, tichaq, tij, xkaj, xkan, qa -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="32">
+    <dep name="acl">183</dep>
+    <dep name="advcl">333</dep>
+    <dep name="advmod">1455</dep>
+    <dep name="amod">170</dep>
+    <dep name="appos">1</dep>
+    <dep name="aux">35</dep>
+    <dep name="case">441</dep>
+    <dep name="cc">28</dep>
+    <dep name="ccomp">122</dep>
+    <dep name="clf">70</dep>
+    <dep name="compound">185</dep>
+    <dep name="conj">53</dep>
+    <dep name="csubj">91</dep>
+    <dep name="dep">4</dep>
+    <dep name="det">1785</dep>
+    <dep name="discourse">16</dep>
+    <dep name="dislocated">20</dep>
+    <dep name="expl">146</dep>
+    <dep name="fixed">15</dep>
+    <dep name="flat">14</dep>
+    <dep name="goeswith">259</dep>
+    <dep name="mark">143</dep>
+    <dep name="nmod">776</dep>
+    <dep name="nsubj">1250</dep>
+    <dep name="nummod">150</dep>
+    <dep name="obj">673</dep>
+    <dep name="obl">1027</dep>
+    <dep name="punct">1804</dep>
+    <dep name="reparandum">4</dep>
+    <dep name="root">1787</dep>
+    <dep name="vocative">23</dep>
+    <dep name="xcomp">98</dep>
+  </deps>
+</treebank>
