@@ -1,0 +1,48 @@
+Running the following version of UD tools:
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 10 13:08:27 2026 +0100
+Evaluating the following revision of UD_Uspanteko-MesoTree:
+commit 01e6fbd3adf85e2a32d39738af65646aa1a33c4d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 8 12:52:13 2026 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'usp_mesotree'
+Language code (from CoNLL-U file name) = 'usp'
+Found the following data files: usp_mesotree-ud-test.conllu
+Size: counted 13161 of 13161 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.15451582170437.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 0 out of 13161 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 32 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 2 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang usp --max-err=10 UD_Uspanteko-MesoTree/usp_mesotree-ud-test.conllu
+[Line 79 Sent uspan_lex:5]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ójor taq tziij' does not have the 'ExtPos' feature
+[Line 2623 Sent uspan_lex:162]: [L3 WARNING fixed-without-extpos] Fixed expression 'lo ke nen' does not have the 'ExtPos' feature
+[Line 3029 Sent uspan_lex:185]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ójor taq tziij' does not have the 'ExtPos' feature
+[Line 5011 Sent uspan_lex:303]: [L3 WARNING fixed-without-extpos] Fixed expression 'kʼu li donde' does not have the 'ExtPos' feature
+[Line 12315 Sent uspan_lex:729]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ójor taq tziij' does not have the 'ExtPos' feature
+[Line 16624 Sent uspan_lex:982]: [L3 WARNING fixed-without-extpos] Fixed expression 'Jikaʼ lon' does not have the 'ExtPos' feature
+[Line 22261 Sent uspan_lex:1309]: [L3 WARNING fixed-without-extpos] Fixed expression 'lñakaaj chi wunaq' does not have the 'ExtPos' feature
+[Line 24872 Sent uspan_lex:1466]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ojor taq tziij' does not have the 'ExtPos' feature
+Warnings: 8
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.01) = 0.00111111111111111
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.373096296374869) = 0.138183813472174
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
+(TOTAL score=0.488608159386716) * (availability=1) * (validity=1) = 0.488608159386716
+STARS = 2.5
+UD_Uspanteko-MesoTree	0.488608159386716	2.5
